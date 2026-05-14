@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    direction: rtl;
+}
+.container{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    max-width: 85%;
+}
+/* navbar*/
+.navbar{
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px #ececec;
+}
+.nav-link{
+    color: #000;
+}
+.nav-link:hover{
+    color: #721711;
+    background-color: rgb(247, 242, 242);
+    height: 150%;
+    border-bottom: #721711 solid 5px;
+}
+.fci-logo ,.fay-logo{
+    width: 60px;
+    height: 60px;
+}
+/* end of navbar*/
+/* large carousel*/
+.carousel-caption{
+    bottom: 200px;
+    right: 350px;
+}
+.carousel-caption h3{
+    font-size: 50px;
+    line-height: 100px;
+}
+.carousel-caption p{
+    font-size: 23px;
+    line-height: 30px;
+}
+.carousel-caption .btn{
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+}
+/* end of large carousel*/
+/* one section*/
+
+.goal{
+    text-align: right;
+}
+.goal h3{
+    margin-top: 50px;
+    border-bottom: #27a4d9 solid 5px;
+    width: 80px;
+    line-height: 50px;
+    font-size: 40px;
+}
+.goal p{
+    margin-top: 30px;
+    line-height: 40px;
+    font-size: 17px;
+}
+.goal .btn{
+    width: 150px;
+    height: 50px;
+}
+.goal .btn i{
+   padding-right: 5px;
+}
+/*  end of one section*/
+/*two section*/
+.second{
+    background-color: #eeeeee;
+    padding:20px 0 20px 0;
+}
+.service{
+    text-align: right;
+}
+.service h4{
+    margin-top: 20px;
+}
+.small-service{
+    text-align: right;
+}
+.small-service .row{
+    margin-bottom: 20px;
+}
+.small-service h4{
+    position: relative;
+    margin-bottom: 30px;
+}
+.small-service h4::after{
+    content: "";
+    position: absolute;
+    border-bottom: #27a4d9 solid 4px;
+    width: 45px;
+    bottom: -12px;
+    right: 10px;
+
+}
+.small-service p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.news-left{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.news-left img{
+    margin-left: 10px;
+}
+/*end of two section*/
+
+/*three section*/
+.third{
+    text-align: right;
+}
+.big-title{
+    text-align: right;
+}
+.big-title h2{
+    font-size: 38px;
+    margin-bottom: 50px;
+}
+.big-title h2::after{
+    content: "";
+    position: absolute;
+    border-bottom: #27a4d9 solid 4px;
+    width: 130px;
+    bottom: 38px;
+    right: 15px;
+}
+
+/* end of three section*/
+
+/* four section*/
+.fourth{
+    text-align: right;
+}
+.left-text{
+    position: relative;
+    padding-right: 50px;
+}
+.fa-heart{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: #27a4d9;
+    border-radius: 50%;
+    color: white;
+    font-size: 33px;
+    text-align: center;
+    padding-top: 15px;
+    top: 10px;
+    right: -10px;
+}
+/* end of four section*/
+/* five section*/
+.fifth{
+    text-align: right;
+    background-color: #eeeeee;
+    padding: 30px 0 30px 0;
+}
+.left-img{
+    position: relative;
+    padding-right: 50px;
+}
+.circle-img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    top: 10px;
+    right: -25px;
+}
+/* end of five section*/
+/* six section*/
+.card-body{
+    background-color: #eeeeee;
+    text-align: right;
+}
+/* end of sixsection*/
+/*  seven section*/
+.seven{
+    background-color: #071c33;
+    color: #fff;
+    text-align: right;
+    padding: 20px 0 10px 0;
+}
+.part-one{
+    line-height: 40px;
+}
+.part-one p{
+    color: rgb(219, 208, 208);
+    font-size: 17px;
+}
+.part-one h6{
+    color: #999;
+}
+.part-two h5{
+    padding-bottom: 20px;
+}
+.part-two a{
+    color: #27a4d9;
+}
+.part-two i{
+    padding-left: 10px;
+}
+.part-three img{
+    max-width: 70px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    border-bottom: #555 solid 1px;
+    width: 300px;
+    color: #999;
+}
+.footer img{
+    margin-left: 10px;
+}
+.part-four p{
+    padding-top: 20px;
+    color: #999;
+    font-size: 12px;
+}
+.part-four input{
+    width: 300px;
+    height: 50px;
+    position: relative;
+}
+.part-four .sub{
+    position: absolute;
+    width: 70px;
+    height: 48px;
+    background-color: #27a4d9;
+    text-align: center;
+    top: 102px;
+    left: 8px;
+}
+.part-four a i{
+    color: #999;
+    margin: 30px 30px 0 0;
+}
+.part-four a i:hover{
+    color: #fff;
+}
+
+
+/*  end of seven section*/
+/*the end*/
+.end-section{
+    background-color: #030d18;
+    color: #838d99;
+    height: 50px;
+    
+}
+.end-section p{
+    font-size: 17px;
+    padding-top: 10px;
+}
+.end-section .right{
+    text-align: right;
+}
+.seven .container{
+    margin-bottom: 0 !important;
+}
+.end-section .container{
+    margin-top: 0 !important;
+}
